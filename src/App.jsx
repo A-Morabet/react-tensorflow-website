@@ -26,7 +26,7 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/react-tensorflow-website/#/register" element={<Register />} />
+            <Route path="/register" element={<Register />} />
             <Route path="/login" element={<Login />} />
             <Route path="/reset" element={<Reset />} />
             <Route path="/classifier" element={<FileInput />} />
