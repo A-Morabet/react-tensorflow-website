@@ -36,7 +36,7 @@ export const navigation = [
   {
     id: "0",
     title: "Did you know",
-    url: "/#didyouknow",
+    url: "/react-tensorflow-website/#didyouknow",
   },
   {
     id: "1",
