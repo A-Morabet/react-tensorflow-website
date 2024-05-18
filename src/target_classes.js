@@ -1,0 +1,25 @@
+export const TARGET_CLASSES = {
+  0: "Afghan",
+  1: "African Wild Dog",
+  2: "Airedale",
+  3: "American Hairless",
+  4: "American Spaniel",
+  5: "Basenji",
+  6: "Basset",
+  7: "Beagle",
+  8: "Bearded Collie",
+  9: "Bermaise",
+  10: "Bichon Frise",
+  11: "Blenheim",
+  12: "Bloodhound",
+  13: "Bluetick",
+  14: "Border Collie",
+  15: "Borzoi",
+  16: "Boston Terrier",
+  17: "Boxer",
+  18: "Bull Mastiff",
+  19: "Bull Terrier",
+  20: "Bulldog",  
+  
+  };
+
