@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { zooLens } from "../assets";
 import { navigation } from "../constants";
+import { HashLink } from 'react-router-hash-link';
 import { useLocation, useNavigate } from "react-router-dom";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
@@ -98,9 +99,9 @@ function Header() {
           >
             <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
               {navigation.map((item) => (
-                <a
+                <HashLink
                   key={item.id}
-                  href={item.url}
+                  to={item.url}
                   onClick={handleClick}
                   className={`block relative font-grotesk text-2xl uppercase text-n-1 transition-colors hover:text-orange-100 ${
                     item.onlyMobile ? "lg:hidden" : ""
@@ -111,7 +112,7 @@ function Header() {
                   } lg:leading-5 lg:hover:text-text-n-1 xl:px-12`}
                 >
                   {item.title}
-                </a>
+                </HashLink>
               ))}
               {authenticatedUser === null ? (
                 <div className="flex flex-col font-code text-2xl uppercase text-n-1 transition-colors hover:text-orange-100 lg:hidden px-6 md:py-8 lg:-mr-0.25 z-2">
