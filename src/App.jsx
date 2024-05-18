@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import FileInput from "./components/FileInput";
 import "./index.css";
 
@@ -20,12 +20,13 @@ import "react-toastify/dist/ReactToastify.css";
 function App() {
   return (
     <>
+        <HashRouter>
         <ToastContainer />
         <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="react-tensorflow-website/register" element={<Register />} />
+            <Route path="/register" element={<Register />} />
             <Route path="/login" element={<Login />} />
             <Route path="/reset" element={<Reset />} />
             <Route path="/classifier" element={<FileInput />} />
@@ -33,6 +34,7 @@ function App() {
           <Footer />
         </div>
         <ButtonGradient />
+        </HashRouter>
     </>
   );
 }
