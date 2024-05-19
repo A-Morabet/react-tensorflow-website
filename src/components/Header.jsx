@@ -107,7 +107,7 @@ function Header() {
                   key={item.id}
                   to={item.url}
                   onClick={handleClick}
-                  className={`block relative font-grotesk text-2xl uppercase text-n-1 transition-colors hover:text-orange-100 ${
+                  className={`block relative font-grotesk text-2xl uppercase text-n-1 lg:transition-colors hover:text-orange-100 ${
                     item.onlyMobile ? "lg:hidden" : ""
                   } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-sm lg:font-semibold ${
                     item.url === pathName.hash
@@ -120,7 +120,7 @@ function Header() {
               ))}
               {authenticatedUser === null ? (
                 <div className="flex flex-col font-code text-2xl uppercase text-n-1 transition-colors hover:text-orange-100 lg:hidden px-6 md:py-8 lg:-mr-0.25 z-2">
-                  <HashLink className="py-6" to="/register" onClick={handleClick}>
+                  <HashLink className="py-6 md:pt-0" to="/register" onClick={handleClick}>
                     New Account
                   </HashLink>
                   <HashLink className="px-6 py-6" to="/login" onClick={handleClick}>
