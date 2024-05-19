@@ -63,6 +63,7 @@ function Header() {
   }
 
   function logOut() {
+  
     setIsLoading(true);
     signOut(auth)
       .then(() => {
@@ -80,6 +81,9 @@ function Header() {
           position: "bottom-right",
         });
       });
+
+    if (!openNavigation) return;
+    setOpenNavigation(false);
   }
 
   return (
@@ -116,20 +120,21 @@ function Header() {
               ))}
               {authenticatedUser === null ? (
                 <div className="flex flex-col font-code text-2xl uppercase text-n-1 transition-colors hover:text-orange-100 lg:hidden px-6 md:py-8 lg:-mr-0.25 z-2">
-                  <a className="py-6" href="/register">
+                  <HashLink className="py-6" to="/register" onClick={handleClick}>
                     New Account
-                  </a>
-                  <a className="px-6 py-6" href="/login">
+                  </HashLink>
+                  <HashLink className="px-6 py-6" to="/login" onClick={handleClick}>
                     Sign in
-                  </a>
+                  </HashLink>
                 </div>
               ) : (
                 <div
                   className={`block relative font-code text-2xl uppercase text-n-1 transition-colors lg:hidden px-6 z-2 `}
                 >
-                  <a className="block py-6" href="/classifier">
+                  <HashLink className="block py-6" to="/classifier" onClick={handleClick}>
                     ZooLens app
-                  </a>
+                    
+                  </HashLink>
                   <a
                     className="hover:text-orange-100 block px-6 py-6 cursor-pointer"
                     onClick={logOut}
