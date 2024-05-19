@@ -36,7 +36,7 @@ import roadmap3 from "./roadmap/competition.jpeg";
 import roadmap4 from "./roadmap/website.png";
 import undone from "./roadmap/undone.svg";
 
-import benefitCard1 from "./benefits/card-1.svg";
+import benefitCard1 from "../../public/card-1.svg";
 import benefitCard2 from "./benefits/card-2.svg";
 import benefitCard3 from "./benefits/card-3.svg";
 import benefitCard4 from "./benefits/card-4.svg";
