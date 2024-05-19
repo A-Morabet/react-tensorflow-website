@@ -103,7 +103,7 @@ export const roadmap = [
   {
     id: "2",
     title: "Community Competitions",
-    text: "Create tournaments where players win great prizes through our new feature ZooLens Games",
+    text: "Create tournaments where players win great prizes through our new feature ZooLens Games.",
     date: "February 2024",
     status: "done",
     imageUrl: roadmap3,

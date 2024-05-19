@@ -49,7 +49,7 @@ function Services() {
               bubble={`You're looking at two Japanese Macaques bathing!`}
               bubbleColor="bg-blue-500"
               bubbleWingColor="fill-blue-500/90"
-              positionMain="top-[2rem] left-[7rem] sm:top-20 lg:top-[2rem] lg:left-[8rem]"
+              positionMain="top-[2rem] left-[0.5rem] sm:top-20 sm:left-20 lg:top-[2rem] lg:left-[3rem]"
               icon="true"
             />
           </div>
@@ -100,7 +100,7 @@ function Services() {
                 bubble="There's a lion cub playing with his dad, he doesn't seem to happy about it..."
                 bubbleColor="bg-blue-500"
                 bubbleWingColor="fill-blue-500/90"
-                positionMain="top-[9rem] left-[7rem] sm:top-[8rem] lg:top-[12rem] md:left-5"
+                positionMain="top-[9rem] left-[0rem] sm:top-[8rem] lg:top-[12rem] md:left-5"
                 icon="true"
               />
             </div>
@@ -126,7 +126,7 @@ function Services() {
                   imgSrc={dogface}
                   bubbleColor="bg-red-500"
                   bubbleWingColor="fill-red-500/90"
-                  positionMain="top-[16.5rem] left-[2rem] sm:left-24 md:left-5"
+                  positionMain="top-[16.5rem] left-[0.75rem] sm:left-24 md:left-5"
                 />
               </div>
 
@@ -151,7 +151,7 @@ function Services() {
                   alt="leaderboard game photo"
                 />
               </div>
-              <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/40 lg:p-15">
+              <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/25 lg:p-15">
                 <h4 className="h4 mb-4 text-n-2">Become the ultimate ZooLenser</h4>
                 <p className="body-2 mb-[3rem] text-n-1">
                   All your achievements and findings will be recorded on your

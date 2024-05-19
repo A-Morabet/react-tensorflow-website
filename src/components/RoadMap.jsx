@@ -12,8 +12,8 @@ const Roadmap = () => (
   <Section className="overflow-hidden" id="roadmap">
     <div className="container md:pb-10">
       <Heading
-        tag="We are commited to continue improving..."
-        title="We develop. You Interact."
+        tag="ZooLens is growing everyday!"
+        title="We Create. You Interact."
       />
 
       <div className="absolute inset-0 translate-y-[10rem] z-0">
@@ -44,7 +44,7 @@ const Roadmap = () => (
                         height={16}
                         alt={status}
                       />
-                      <div className="tagline">{status}</div>
+                      <div className="tagline text-[0.5rem] sm:text-[0.75rem] md:text-[0.65rem] lg:text-[0.75rem]">{status}</div>
                     </div>
                   </div>
 

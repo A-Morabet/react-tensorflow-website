@@ -27,13 +27,13 @@ function FileInput() {
       const reader = new FileReader();
       reader.readAsDataURL(e.target.files[0]);
       reader.onload = (e) => {
-        console.log(e);
+        //console.log(e); make sure files loads correctly from input
         setImagePath(e.target.result);
 
         setCurrentImage(document.getElementById("image"));
       };
 
-      // console.log(e.target.files);
+      
     }
   }
 
@@ -54,7 +54,7 @@ function FileInput() {
     setImagePath(cors + e.target.value);
 
     const image = await load(cors + e.target.value);
-    console.log(image);
+    // console.log(image); make sure files loads correctly from url
 
     setCurrentImage(image);
     let inputFile = (document.getElementById("upload").value = "");
@@ -69,7 +69,7 @@ function FileInput() {
 
     setLoadedModel(model);
 
-    console.log("model has been loaded succesfully...");
+    console.log("Model has been loaded succesfully...");
   }
 
   function startClassify() {
@@ -88,7 +88,7 @@ function FileInput() {
       .reverse(-1);
 
     const predictions = await loadedModel.predict(tensor).data();
-    console.log(predictions);
+    //console.log(predictions); results of ai prediction
 
     let top5 = Array.from(predictions)
       .map(function (p, i) {
@@ -131,8 +131,8 @@ function FileInput() {
               ref={imageRef}
               id="image"
               crossOrigin="anonymous"
-              width={128}
-              height={128}
+              width={300}
+              height={300}
             >
               
             </img>

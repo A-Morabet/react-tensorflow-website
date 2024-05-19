@@ -27,7 +27,7 @@ function DidYouKnow() {
             </div>
 
             <div className="relative z-1">
-              <h2 className="h1 flex justify-center mb-[4rem] text-blue-800 bg-n-1/60 backdrop-blur-sm w-fit mx-auto border rounded-2xl p-1.5">
+              <h2 className="h1 flex justify-center mb-[4rem] text-blue-800 bg-n-1/60 backdrop-blur-sm w-fit mx-auto text-center border rounded-2xl p-1.5">
                 Did you know...?
               </h2>
               <h2 className="h2 mb-4 text-center text-n-8 bg-blue-100/60 border rounded-2xl backdrop-blur p-2">
