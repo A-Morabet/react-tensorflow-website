@@ -40,7 +40,7 @@ const navigate = useNavigate();
       {authenticatedUser === null ? (
         <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
           <HashLink
-            href="/Register"
+            to="/Register"
             className="button hidden mr-8 text-n-8/80 transition-colors hover:text-pink-600/90 lg:block font-grotesk"
           >
             New Account
@@ -52,7 +52,7 @@ const navigate = useNavigate();
       ) : (
         <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row font-grotesk">
           <HashLink
-            href="/Classifier"
+            to="/Classifier"
             className="button hidden mr-8 text-n-8/80 transition-colors hover:text-violet-500/90 hover:bg-n-1 lg:block border-2 border-[#ffffcc] px-4 py-3 rounded-2xl"
           >
             ZooLens App
