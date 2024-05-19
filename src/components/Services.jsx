@@ -175,7 +175,7 @@ function Services() {
               />
             </div>
 
-            <div className="relative z-1 max-w-[17rem] mx-auto bg-n-1/60 rounded-2xl p-5 backdrop-blur md:ml-auto md:mx-0">
+            <div className="relative z-1 max-w-[17rem] mx-auto bg-n-1/60 rounded-2xl p-5 backdrop-blur md:ml-auto md:mx-0 py-2">
               <h4 className="h4 mb-4">Easy to run, Easy to Integrate</h4>
               <p className="body-2 mb-[3rem] text-n-7">
                 Have an App and wish to harness the power of ZooLens? Our

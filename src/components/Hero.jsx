@@ -24,7 +24,7 @@ function Hero() {
         >
           <div className="container relative" ref={parallaxRef}>
             <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[3.25rem]">
-              <h1 className="h1 mb-6 mt-10">
+              <h1 className="h2 font-bold  sm:h1  md:h1 lg:h1 mb-6 mt-10">
                 Discover the wonders of&nbsp;Animal&nbsp;Watching with {` `}
                 <span className="inline-block relative">
                   ZooLens{" "}

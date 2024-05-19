@@ -93,7 +93,7 @@ function Header() {
         className={`fixed top-0 left-0 w-full z-50 border-b border-n-3 bg-orange-500/90 backdrop-blur-sm`}
       >
         <div className="flex items-center px-5 lg:px-7,5 xl:px-10 max-lg:py-4">
-          <HashLink className="block w-[12rem] xl:mr-8" to="/#hero">
+          <HashLink className="block w-[12rem] xl:mr-8" to="/#hero" onClick={handleClick}>
             <img src={zooLens} width="190" height="40" alt="zooLens" />
           </HashLink>
           <nav
