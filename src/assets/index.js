@@ -45,9 +45,9 @@ import benefitCard6 from "./benefits/card-6.svg";
 import benefitIcon1 from "./benefits/icon-1.svg";
 import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
-import benefitIcon4 from "./benefits/icon-4.svg"
-import benefitIcon5 from "./benefits/icon-5.svg"
-import benefitIcon6 from "./benefits/icon-6.svg"
+import benefitIcon4 from "./benefits/icon-4.svg";
+import benefitIcon5 from "./benefits/icon-5.svg";
+import benefitIcon6 from "./benefits/icon-6.svg";
 import benefitImage1 from "./benefits/pixel.jpg";
 import benefitImage2 from "./benefits/chatbot.png";
 import benefitImage3 from "./benefits/share.png";

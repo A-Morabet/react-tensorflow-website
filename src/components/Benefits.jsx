@@ -18,7 +18,7 @@ function Benefits() {
           <div
             className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] mx-auto"
             style={{
-              backgroundImage: `url(${item.backgroundUrl})`,
+              backgroundImage: `url(${item.backgroundUrl})`
             }}
             key={item.id}
           >
