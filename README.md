@@ -69,5 +69,3 @@ Amine Morabet - hey@aminemorabet.com
 Project Link: [https://A-Morabet.github.io/react-tensorflow-website](https://A-Morabet.github.io/react-tensorflow-website)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-Project link: https://a-morabet.github.io/react-tensorflow-website/
