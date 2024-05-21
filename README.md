@@ -1,3 +1,58 @@
+# Modern Web Application with React, Tailwind CSS, Firebase, and TensorFlow.js
+
+</br>
+<div align="center">
+<img src="https://github.com/A-Morabet/invoice-generator-allied/blob/main/invoice2.png" width="600"/>
+</div>
+</br>
+
+## Summary
+
+React website built using Vite, React, Firebase, Tensorflow.js and Tailwind CSS.
+It features the following:
+
+* Fully functioning authentication system with sign-in, login and password reset options.
+* Modern and responsive design for all devices.
+* Integrated ML Image Classifier in the browser.
+
+Website layout is inspired from current start-up trends, such as bento boxes placed
+one next to each other or on two offset columns, as seen on the roadmap section.
+
+Once the user creates an account through the sign-in option, he'll be able to
+access the ML Model and test it uploading images through URLs or from his
+local device. The Image Classifier model was trained using Microsoft's Azure Custom Vision,
+exported into tensorflow.js format and then integrated in the website's logic to make predictions.
+
+The model can predict the following dog species: Afghan - African Wild Dog - Airedale 
+- American Hairless - American Spaniel - Basenji - Basset - Beagle - Bearded Collie -
+- Bermaise - Bichon Frise - Bienheim -  - Bloodhound - Bluetick - Border Collie - Borzoi -
+-  Boston Terrier - Boxer - Bull Mastiff - Bull Terrier.
+
+### Prerequisites
+
+No packages are needed to run this project locally.
+
+### Installation
+
+1. Clone the repo.
+   ```sh
+   git clone https://github.com/A-Morabet/invoice-generator-allied
+   ```
+2. Run live server in source code editor.
+
+Made with HTML, Javascript and CSS.
+
+## Contact
+
+Amine Morabet - hey@aminemorabet.com
+
+Project Link: [https://A-Morabet.github.io/invoice-generator-allied](https://A-Morabet.github.io/invoice-generator-allied)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
