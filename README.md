@@ -26,10 +26,10 @@ the model was then exported into tensorflow.js format and then integrated in the
 to make predictions.
 
 The model can predict the following dog species: </br>
-- Afghan - African Wild Dog - Airedale - American Hairless - American Spaniel </br>
-- Basenji - Basset - Beagle - Bearded Collie -Bermaise - Bichon Frise - Bienheim </br>
-- Bloodhound - Bluetick - Border Collie - Borzoi - Boston Terrier - Boxer - Bull Mastiff </br>
-- Bull Terrier.
+ Afghan - African Wild Dog - Airedale - American Hairless - American Spaniel </br>
+ Basenji - Basset - Beagle - Bearded Collie -Bermaise - Bichon Frise - Bienheim </br>
+ Bloodhound - Bluetick - Border Collie - Borzoi - Boston Terrier - Boxer - Bull Mastiff </br>
+ Bull Terrier.
 
 ### Prerequisites
 
