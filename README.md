@@ -33,8 +33,10 @@ The model can predict the following dog species: </br>
 
 ### Prerequisites
 
-1. Launch npm install command. //ESTOY AQUÍ
-   ``` 
+1. Launching npm install command.
+   ```sh
+   npm install
+   ```sh
 
 ### Installation
 
@@ -50,7 +52,7 @@ The model can predict the following dog species: </br>
    ```sh
    npm run dev
    ```
-5. There is a known issue in some devices where the build doesn't compile due to the following error:
+5. There is a known issue in some devices where the build doesn't compile due to the following error: </br>
    Could not resolve "sharp"
    ```
    node_modules/base64-to-tensor/dist/convert-async.js:97:102:
