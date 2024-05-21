@@ -24,10 +24,10 @@ The Image Classifier model was trained using [Microsoft's Azure Custom Vision](h
 the model was then exported into tensorflow.js format and then integrated in the website's logic </br>
 to make predictions.
 
-The model can predict the following dog species: Afghan - African Wild Dog - Airedale 
-- American Hairless - American Spaniel - Basenji - Basset - Beagle - Bearded Collie -
-- Bermaise - Bichon Frise - Bienheim -  - Bloodhound - Bluetick - Border Collie - Borzoi -
--  Boston Terrier - Boxer - Bull Mastiff - Bull Terrier.
+The model can predict the following dog species: Afghan - African Wild Dog - Airedale -
+American Hairless - American Spaniel - Basenji - Basset - Beagle - Bearded Collie -
+Bermaise - Bichon Frise - Bienheim -  - Bloodhound - Bluetick - Border Collie - Borzoi -
+Boston Terrier - Boxer - Bull Mastiff - Bull Terrier.
 
 ### Prerequisites
 
