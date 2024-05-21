@@ -2,7 +2,7 @@
 
 </br>
 <div align="center">
-<img src="https://github.com/A-Morabet/react-tensorflow-website/blob/main/02-screenshot.png" width="600"/>
+<img src="https://github.com/A-Morabet/react-tensorflow-website/blob/main/01-screenshot.png" width="600"/>
 </div>
 </br>
 
