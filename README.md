@@ -27,7 +27,7 @@ to make predictions.
 The model can predict the following dog species: </br>
 Afghan - African Wild Dog - Airedale - American Hairless - American Spaniel - </br>
 Basenji - Basset - Beagle - Bearded Collie -Bermaise - Bichon Frise - Bienheim - </br>
-- Bloodhound - Bluetick - Border Collie - Borzoi - </br>
+Bloodhound - Bluetick - Border Collie - Borzoi - </br>
 Boston Terrier - Boxer - Bull Mastiff - Bull Terrier.
 
 ### Prerequisites
