@@ -15,13 +15,14 @@ It features the following:
 * Modern and responsive design for all devices.
 * Integrated ML Image Classifier in the browser.
 
-Website layout is inspired from current start-up trends, such as bento boxes placed </br>
-one next to each other or on two offset columns, as seen on the roadmap section.
+Website layout is inspired from current start-up trends, such as bento boxes placed one next </br>
+to each other or on two offset columns, as seen on the roadmap section.
 
-Once the user creates an account through the sign-in option, he'll be able to </br>
-access the ML Model and test it uploading images through URLs or from his </br>
-local device. The Image Classifier model was trained using [Microsoft's Azure Custom Vision](https://azure.microsoft.com/en-au/products/ai-services/ai-custom-vision), </br>
-the model was then exported into tensorflow.js format and then integrated in the website's logic to make predictions.
+Once the user creates an account through the sign-in option, he'll be able to access the ML </br>
+Model and test it uploading images through URLs or from his local device. </br>
+The Image Classifier model was trained using [Microsoft's Azure Custom Vision](https://azure.microsoft.com/en-au/products/ai-services/ai-custom-vision), </br>
+the model was then exported into tensorflow.js format and then integrated in the website's logic </br>
+to make predictions.
 
 The model can predict the following dog species: Afghan - African Wild Dog - Airedale 
 - American Hairless - American Spaniel - Basenji - Basset - Beagle - Bearded Collie -
