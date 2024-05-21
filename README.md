@@ -15,19 +15,19 @@ It features the following:
 * Modern and responsive design for all devices.
 * Integrated ML Image Classifier in the browser.
 
-Website layout is inspired from current start-up trends, such as bento boxes placed one </br>
+Website layout is inspired from current start-up trends, such as bento boxes placed one
 next to each other or on two offset columns, as seen on the roadmap section.
 
-Once the user creates an account through the sign-in option, he'll be able to access the ML </br>
-Model and test it uploading images through URLs or from his local device. </br>
-The Image Classifier model was trained using [Microsoft's Azure Custom Vision](https://azure.microsoft.com/en-au/products/ai-services/ai-custom-vision), </br>
-the model was then exported into tensorflow.js format and then integrated in the website's logic </br>
+Once the user creates an account through the sign-in option, he'll be able to access the ML 
+Model and test it uploading images through URLs or from his local device.
+The Image Classifier model was trained using [Microsoft's Azure Custom Vision](https://azure.microsoft.com/en-au/products/ai-services/ai-custom-vision),
+the model was then exported into tensorflow.js format and then integrated in the website's logic 
 to make predictions.
 
 The model can predict the following dog species: 
-Afghan - African Wild Dog - Airedale -
-American Hairless - American Spaniel - Basenji - Basset - Beagle - Bearded Collie -
-Bermaise - Bichon Frise - Bienheim -  - Bloodhound - Bluetick - Border Collie - Borzoi -
+Afghan - African Wild Dog - Airedale - American Hairless - American Spaniel - </br>
+Basenji - Basset - Beagle - Bearded Collie -Bermaise - Bichon Frise - Bienheim - </br>
+- Bloodhound - Bluetick - Border Collie - Borzoi - </br>
 Boston Terrier - Boxer - Bull Mastiff - Bull Terrier.
 
 ### Prerequisites
