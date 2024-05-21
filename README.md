@@ -32,7 +32,8 @@ The model can predict the following dog species: </br>
 
 ### Prerequisites
 
-No packages are needed to run this project locally.
+1. Launch npm install command.
+   ``` //ESTOY AQUÍ
 
 ### Installation
 
