@@ -59,7 +59,7 @@ The model can predict the following dog species: </br>
       97 │ ...    return [4 /*yield*/, Promise.resolve().then(function () { return __importStar(require("sharp")); })];
    ```
    The solution is to ctrl+click the first line to enter the file containing the error,
-   and then replace "(require(" <u> sharp </u> "))" with "(require("<u>./</u>"))".
+   and then replace "(require(" <ins> sharp </ins> "))" with "(require("<u>./</u>"))".
 
 
 ## Contact
