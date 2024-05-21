@@ -36,7 +36,7 @@ The model can predict the following dog species: </br>
 1. Launching npm install command.
    ```sh
    npm install
-   ```sh
+   ```
 
 ### Installation
 
