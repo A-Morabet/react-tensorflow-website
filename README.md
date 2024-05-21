@@ -32,8 +32,8 @@ The model can predict the following dog species: </br>
 
 ### Prerequisites
 
-1. Launch npm install command.
-   ``` //ESTOY AQUÍ
+1. Launch npm install command. //ESTOY AQUÍ
+   ``` 
 
 ### Installation
 
