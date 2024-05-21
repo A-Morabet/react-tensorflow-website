@@ -2,7 +2,7 @@
 
 </br>
 <div align="center">
-<img src="https://github.com/A-Morabet/invoice-generator-allied/blob/main/invoice2.png" width="600"/>
+<img src="https://github.com/A-Morabet/react-tensorflow-website/blob/main/02-screenshot.png" width="600"/>
 </div>
 </br>
 
